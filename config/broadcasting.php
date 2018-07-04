@@ -40,13 +40,12 @@ return [
             ],
         ],
 
+        'log' => [
+            'driver' => 'log',
+        ],
         'redis' => [
             'driver' => 'redis',
             'connection' => 'default',
-        ],
-
-        'log' => [
-            'driver' => 'log',
         ],
 
         'null' => [
